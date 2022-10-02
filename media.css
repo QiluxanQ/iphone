@@ -1,0 +1,54 @@
+@media all and (max-width: 800px){
+    .primary-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-mobile-hide{
+        display: none;
+    }
+    .main-about-imj{
+        width: 50%;
+        height: 50%;
+        justify-content: space-between;
+    }
+    .main-about-imj:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .new-text{
+        position: relative;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .main-new-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .main-new-img{
+        width: 400px;
+        height: 400px;
+    }
+    .cheng-color{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cheng-mobile{
+        width: 90%;
+        align-items: center;
+        gap: 330px;
+    }
+    .main-form-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-img{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .form{
+        width: 100%;
+    }
+}
